@@ -1,0 +1,39 @@
+/*Section One Styles*/
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .section-1-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.section-1 .section-1-container .section-1-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.section-1 .section-1-container .section-1-item img{
+    width: 80px;
+}
+
+
+/*Section 2 styling*/
+
+.section-2{}
+
+.section-2-container{
+    margin-top: 16px;
+    height: 280px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
+    background-size: cover;
+    background-position: center;
+}

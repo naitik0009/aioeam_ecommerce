@@ -1,0 +1,574 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header .logo
+{
+    display: flex;
+    justify-content: center;
+    
+    cursor: pointer;
+}
+.header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-right: 15%;
+}
+.header ul li
+{
+    
+    margin-left: 50px;
+    list-style: none;
+    
+}
+.header ul li a
+{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.header ul li a:hover{
+    color:pink;
+}
+.header .icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.header .icon i
+{
+    margin-right: 30px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+.header .icon i:hover{
+    color: pink;
+}
+.home
+{
+    padding: 50px 40px;
+}
+.home .contant
+{
+    display: flex;
+}
+.home .contant .banner1
+{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.home .contant .small-banner .banner
+{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.about
+{
+    padding: 40px 60px;
+    background: #f9f9fd;
+    width: 100%;
+}
+.about .contant
+{
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+.about .contant .box
+{
+    display: flex;
+    cursor: pointer;
+}
+.about .contant .box .conatiner h3
+{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about .contant .box .conatiner p
+{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #adadad;
+}
+.game
+{
+    padding: 40px 50px;
+    width: 100%;
+    background: #f9f9fd;
+}
+.game h2
+{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.game .contant
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 20px 30px;
+}
+.game .contant .box
+{
+    padding: 20px 30px;
+    background: #fff;
+    overflow: hidden;
+    height: 400px;
+    cursor: pointer;
+}
+.game .contant .box .img-box
+{
+    display: flex;
+}
+.game .contant .box .img-box .icon
+{
+    flex-direction: column;
+    display: flex;
+}
+.game .contant .box .img-box .icon i
+{
+    margin-top: 30px;
+    padding: 10px 10px;
+    background: rgba(100, 100, 111, 0.2);
+    cursor: pointer;
+    transform: translateX(90px);
+    transition: 0.5s;
+}
+.game .contant .box:hover .img-box .icon i
+{
+    transform: translateX(0px);
+}
+.game .contant .box .container
+{
+    margin-top: 60px;
+}
+.game .contant .box .container h3
+{
+    font-size: 22px;
+    font-weight: 200;
+
+}
+.game .contant .box .container h4
+{
+    color: #828181;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.game .contant .box .container .addtocart
+{
+    text-align: center;
+    margin-top: 20px ;
+    transform: translateY(100px);
+    transition: 0.5s;
+}
+.game .contant .box:hover .container .addtocart
+{
+    transform: translateY(0px);
+}
+.game .contant .box .container .addtocart a
+{
+    padding: 10px 30px;
+    background: #f7c741;
+    color: #000;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.brand
+{
+    padding: 40px 60px;
+    background: #f9f9fd;
+}
+.brand h2
+{
+    color: #828181;
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.brand h2 span
+{
+    border-bottom: 2px solid crimson;
+}
+.brand .contant
+{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.brand .contant .box
+{
+    height: 150px;
+    width: 170px;
+    background: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.brand .contant .box .img-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.product
+{
+    padding: 40px 60px;
+    background: #f9f9fd;
+    width: 100%;
+}
+.product .contant
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.product .contant .box
+{
+    overflow: hidden;
+    background: #fff;
+    margin: 10px 10px;
+    display: flex;
+    width: 550px;
+    padding: 10px 20px;
+}
+.product .contant .box .container
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.product .contant .box .container h2
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #010101;
+}
+.product .contant .box .container h3
+{
+    margin-top: 10px;
+    color: #828181;
+    margin-bottom: 50px;
+}
+.product .contant .box .container a
+{
+    margin-left: 30px;
+    padding: 10px 30px;
+    background: #f7c741;
+    color: #010101;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.product .contant .box .container a:hover
+{
+    border: 1px solid #f7c741;
+    background: none;
+    color: #f7c741;
+}
+.product .contant .box .container .icon
+{
+    margin-top: 10px;
+}
+.product .contant .box .container .icon i
+{
+    margin-top: 20px;
+    padding: 10px 10px;
+    background: rgba(100, 100, 111, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateX(90px);
+}
+.product .contant .box:hover .container .icon i
+{
+    transform: translateX(0);
+}
+.saller
+{
+    padding: 40px 60px;
+    background: #f9f9fd;
+    width:100%
+}
+.saller h2
+{
+    font-size: 32px;
+}
+.saller h2 span
+{
+    border-bottom: 2px solid crimson;
+}
+.saller .contant
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.saller .contant .box
+{
+    padding: 5px 10px;
+}
+.saller .contant .box .img-box 
+{
+    background: #fff;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.saller .contant .box .img-box img
+{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.saller .contant .box .container h2
+{
+    font-size: 16px;
+    color: #828181;
+    font-weight: 200;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.add_container
+{
+    margin-top: 60px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.add_container .add
+{
+    cursor: pointer;
+}
+.sales
+{
+    padding: 40px 60px;
+    background: #f9f9fd;
+    width: 100%;
+}
+.sales h2
+{
+    font-size: 32px;
+}
+.sales h2 span
+{
+    border-bottom: 3px solid crimson;
+}
+.sales .contant
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sales .contant .box
+{
+    height: 400px;
+    padding: 10px 20px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 270px;
+    overflow: hidden;
+}
+.sales .contant .box:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sales .contant .box .img-box
+{
+    display: flex;
+}
+.sales .contant .box .img-box .icon
+{
+    margin-top: 20px;
+}
+.sales .contant .box .img-box .icon i
+{
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background: rgba(100, 100, 111, 0.2);
+    transform: translateX(90px);
+    transition: 0.5s;
+}
+.sales .contant .box:hover .img-box .icon i
+{
+    transform: translateX(-30px);
+}
+.sales .contant .box .container
+{
+    margin-top: 30px;
+}
+.sales .contant .box .container h3
+{
+    font-size: 18px;
+    color: #828181;
+}
+.sales .contant .box .container h4
+{
+    margin-top: 10px;
+    color: crimson;
+    margin-bottom: 30px;
+}
+.sales .contant .box .container .addtocart
+{
+    transform: translateY(120px);
+    transition: 0.5s;
+}
+.sales .contant .box:hover .container .addtocart
+{
+    transform: translateY(0px);
+}
+.sales .contant .box .container .addtocart a
+{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    background: crimson;
+    margin-left: 50px;
+}
+.sales .add
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.subscribe
+{
+    padding: 40px 60px;
+    width: 100%;
+    background: #f9f9fd;
+}
+.subscribe .contant
+{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .contant .banner
+{
+    width: 800px;
+    height: 300px;
+    background: url(img/subscribe.png);
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .contant .banner h2
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color:crimson;
+}
+.subscribe .contant .banner h2 span
+{
+    color: #f7c741;
+}
+.subscribe .contant .banner .form
+{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.subscribe .contant .banner .form input
+{
+    padding: 10px 20px;
+    width: 350px;
+    outline: none;
+    border: none;
+}
+.subscribe .contant .banner .form button
+{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.fotter
+{
+    padding: 40px 60px;
+    width: 100%;
+    background: #f9f9fd;
+}
+.fotter .contant
+{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.fotter .contant .img-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotter .contant .container
+{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    margin-left: 40%;
+}
+.fotter .contant .container .box
+{
+    padding: 10px 10px;
+    margin-left: 20px;
+    background: rgba(100, 100, 111, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+.fotter .contant .container .box i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.fotter .contant .container .box i:hover{
+    color:blue;
+}

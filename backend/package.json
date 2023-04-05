@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Let's build a ecommerce site for AIOEAM",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naitik0009/AIOEAM_ECOMMERCE_MERN.git"
+  },
+  "author": "naitik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naitik0009/AIOEAM_ECOMMERCE_MERN/issues"
+  },
+  "homepage": "https://github.com/naitik0009/AIOEAM_ECOMMERCE_MERN#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
