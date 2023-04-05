@@ -28,7 +28,7 @@
 
 /*Section 2 styling*/
 
-.section-2{}
+
 
 .section-2-container{
     margin-top: 16px;
@@ -36,4 +36,15 @@
     background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
     background-size: cover;
     background-position: center;
+}
+
+/*Section 3 styling*/
+
+.section-3-container{
+    margin-top: 8px;
+    height: 122px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
 }

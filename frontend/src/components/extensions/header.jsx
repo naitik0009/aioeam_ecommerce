@@ -4,7 +4,7 @@ export const Navbar = () => {
         <header>
             <div className="navbar-container">
                 <div className="logo">
-                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="" srcset="" />
+                    <h4 style={{color:"white"}}>AIOEAM SHOP</h4>
                 </div>
                 <div className="search">
                     <div className="search-container">
